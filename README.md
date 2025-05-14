@@ -1,4 +1,3 @@
-
 # Kalkulator Luas dan Keliling Persegi Panjang
 
 Proyek ini adalah program sederhana yang ditulis dalam bahasa C untuk menghitung luas dan keliling persegi panjang. Program ini meminta pengguna untuk memasukkan tinggi dan lebar persegi panjang, kemudian menghitung dan menampilkan luas dan kelilingnya.
