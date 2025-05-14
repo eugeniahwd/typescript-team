@@ -16,7 +16,7 @@ Proyek ini adalah program sederhana yang ditulis dalam bahasa C untuk menghitung
 
 2. Masuk ke folder proyek:
    ```bash
-   cd rectangle-calculator
+   cd rectangle_calculator
    ```
 
 3. Compile program C:
@@ -57,11 +57,11 @@ Proyek ini adalah program sederhana yang ditulis dalam bahasa C untuk menghitung
 Berikut adalah contoh bagaimana program bekerja:
 
 ```
-=== Kalkulator Luas dan Keliling Persegi Panjang ===
-Masukkan tinggi: 5
-Masukkan lebar: 10
-Luas: 50.00
-Keliling: 30.00
+=== Rectangle Area and Perimeter Calculator ===
+Enter the height: 2.5
+Enter the width: 3.7
+Area: 9.25
+Perimeter: 12.40
 ```
 
 ## Instruksi untuk Kolaborasi
