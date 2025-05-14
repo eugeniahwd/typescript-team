@@ -9,7 +9,6 @@ int validate_input(float value){
         printf("Invalid: Value must be positive!\n");
         return 0;
     }
-    return 1;
 }
 
 int main(){
