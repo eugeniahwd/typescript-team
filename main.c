@@ -17,7 +17,8 @@ float calculate_perimeter(float height, float width) {
 }
 
 void display_results(float area, float perimeter) {
-	
+	printf("Area: %.2f\n", area);
+	printf("Perimeter: %.2f\n", perimeter);
 }
 
 int main(){
