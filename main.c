@@ -13,7 +13,7 @@ int validate_input(float value){
 }
 
 float calculate_perimeter(float height, float width) {
-	
+	return 2 * (height + width);
 }
 
 void display_results(float area, float perimeter) {
