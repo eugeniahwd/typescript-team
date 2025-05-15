@@ -36,5 +36,10 @@ int main(){
         scanf("%f", &width);
     } while (!validate_input(width));
 
+    float area = calculate_area(height, width);
+    float perimeter = calculate_perimeter(height, width);
+    display_results(area, perimeter);
+
+
     return 0;
 }
