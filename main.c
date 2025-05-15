@@ -12,6 +12,14 @@ int validate_input(float value){
     return 1;
 }
 
+float calculate_perimeter(float height, float width) {
+	
+}
+
+void display_results(float area, float perimeter) {
+	
+}
+
 int main(){
     float height, width;
     printf("=== Rectangle Area Calculator ===\n");
