@@ -31,7 +31,10 @@ int main(){
         scanf("%f", &height);
     } while (!validate_input(height));
     
-    printf("Enter the width: "); scanf("%f", &width);
+    do {
+        printf("Enter the width: ");
+        scanf("%f", &width);
+    } while (!validate_input(width));
 
     return 0;
 }
