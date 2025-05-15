@@ -23,7 +23,15 @@ void display_results(float area, float perimeter) {
 
 int main(){
     float height, width;
+
     printf("=== Rectangle Area Calculator ===\n");
-    printf("Enter the height: "); scanf("%f", &height);
+
+    do {
+        printf("Enter the height: ");
+        scanf("%f", &height);
+    } while (!validate_input(height));
+    
     printf("Enter the width: "); scanf("%f", &width);
+
+    return 0;
 }
